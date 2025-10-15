@@ -6,7 +6,7 @@ public:
             if(s[i]=='*'){
                 st.pop_back();
             }
-            else st.push_back(s[i]);
+            else st.push_back(s[i]); // 
         }
         return st;
     }
